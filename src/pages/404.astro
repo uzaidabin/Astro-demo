@@ -1,0 +1,263 @@
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Legality | Not Found</title>
+    <meta name="description" content="The page you are looking for doesn't exist or has been moved." />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Legality | Not Found" />
+    <meta property="og:description" content="The page you are looking for doesn't exist or has been moved." />
+    <meta property="og:image" content="/images/legality-open-graph.jpg" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Legality | Not Found" />
+    <meta name="twitter:description" content="The page you are looking for doesn't exist or has been moved." />
+    <meta name="twitter:image" content="/images/legality-open-graph.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/images/webclip.png" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+    
+    <style>
+      :root {
+        --font-serif: 'Playfair Display', Arial, serif;
+        --font-sans: 'Quicksand', Arial, sans-serif;
+        --color-primary: #b2a376;
+        --color-secondary: #111e27;
+        --color-main: #5f686f;
+        --color-neutral: #fdfdfd;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.56;
+        color: var(--color-main);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-serif);
+        color: var(--color-secondary);
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      button {
+        cursor: pointer;
+        border: none;
+        background: none;
+      }
+
+      ul, ol {
+        list-style: none;
+      }
+
+      a, button {
+        transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--color-primary);
+        outline-offset: 2px;
+      }
+
+      .utility-page-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        max-width: 100%;
+        height: 100vh;
+        max-height: 100%;
+        background-color: var(--color-neutral);
+      }
+
+      .utility-page-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 520px;
+        width: 100%;
+        padding: 0 20px;
+      }
+
+      .utility-page-image {
+        width: 100%;
+        max-width: 520px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .utility-title {
+        font-family: var(--font-serif);
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.23;
+        color: var(--color-secondary);
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .utility-description {
+        font-size: 16px;
+        color: var(--color-main);
+        line-height: 1.6;
+        margin: 10px 0 0;
+      }
+
+      .gap-top-30 {
+        margin-top: 30px;
+      }
+
+      .gap-top-20 {
+        margin-top: 20px;
+      }
+
+      .button-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .button-default {
+        display: inline-flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 34px;
+        padding: 4px 32px 4px 4px;
+        min-width: 157px;
+        text-decoration: none;
+        transition: box-shadow 0.3s;
+      }
+
+      .button-default:hover {
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+      }
+
+      .button-text-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 11px;
+        background-color: var(--color-secondary);
+        color: #fff;
+        border-radius: 30px;
+        padding: 5px 20px 7px;
+        position: relative;
+      }
+
+      .button-text {
+        font-family: var(--font-serif);
+        font-size: 20px;
+        line-height: 1.4;
+        white-space: nowrap;
+        position: relative;
+      }
+
+      .button-icon {
+        position: absolute;
+        right: 11px;
+        top: 0;
+        bottom: 0;
+        width: 10px;
+        height: 18px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        color: var(--color-secondary);
+        transition: transform 0.3s;
+      }
+
+      .button-default:hover .button-icon {
+        transform: translateX(2px);
+      }
+
+      @media screen and (max-width: 767px) {
+        .utility-page-content {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+
+        .gap-top-30 {
+          margin-top: 20px;
+        }
+
+        .gap-top-20 {
+          margin-top: 15px;
+        }
+      }
+
+      @media screen and (max-width: 479px) {
+        .utility-page-content {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="utility-page-wrap">
+        <div class="utility-page-content">
+          <img 
+            src="/images/404-bg.png" 
+            alt="" 
+            class="utility-page-image" 
+            loading="eager"
+          />
+          <h2 class="utility-title gap-top-30">Page Not Found</h2>
+          <p class="utility-description">The page you are looking for doesn't exist or has been moved</p>
+          <div class="button-wrapper justify-center gap-top-20">
+            <a href="/" class="button-default">
+              <div class="button-text-block">
+                <div class="button-text">Back To Home</div>
+                <div class="button-icon" aria-hidden="true">
+                  <svg width="100%" height="100%" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.76383 8.43925L1.27781 0.213913C1.13622 0.0766001 0.948105 -3.95671e-07 0.752482 -4.04222e-07C0.55686 -4.12773e-07 0.368745 0.0766 0.227151 0.213913L0.218014 0.223207C0.149135 0.289774 0.0942879 0.3699 0.0568085 0.45871C0.019329 0.547521 9.25561e-07 0.643159 9.21336e-07 0.739808C9.17112e-07 0.836457 0.019329 0.932095 0.0568084 1.02091C0.0942878 1.10972 0.149135 1.18984 0.218014 1.25641L8.20915 9.00155L0.218013 16.7436C0.149134 16.8102 0.0942871 16.8903 0.0568077 16.9791C0.0193283 17.0679 2.03432e-07 17.1635 1.99207e-07 17.2602C1.94983e-07 17.3568 0.0193283 17.4525 0.0568077 17.5413C0.0942871 17.6301 0.149134 17.7102 0.218013 17.7768L0.22715 17.7861C0.368744 17.9234 0.556859 18 0.752482 18C0.948104 18 1.13622 17.9234 1.27781 17.7861L9.76383 9.56075C9.83846 9.48841 9.89787 9.40141 9.93847 9.30502C9.97907 9.20863 10 9.10486 10 9C10 8.89513 9.97907 8.79136 9.93847 8.69497C9.89787 8.59859 9.83846 8.51159 9.76383 8.43925Z" fill="currentColor"/>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
